@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>🤖 Soyal Rajbahak - SWE</title>
+	<meta name="description" content="Soyal Rajbahak — Software Engineer. Projects, background, and contact." />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script>
+		(function () {
+			var saved = localStorage.getItem("theme");
+			var theme = saved || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+			document.documentElement.setAttribute("data-theme", theme);
+		})();
+	</script>
+</head>
+<body class="is-preload">
+
+	<!-- Nav -->
+	<header id="header">
+		<div class="header-inner">
+			<a href="#top" class="mark">
+				<img src="images/Neon.png" alt="" class="mark-img" />
+				<span class="mark-text">Soyal Rajbahak</span>
+			</a>
+
+			<nav id="nav">
+				<ul>
+					<li><a href="#top" data-nav="top">Home</a></li>
+					<li><a href="#work" data-nav="work">Work</a></li>
+					<li><a href="#about" data-nav="about">About</a></li>
+					<li><a href="#contact" data-nav="contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<button id="theme-toggle" aria-label="Toggle dark mode">
+				<span class="icon-light" aria-hidden="true">&#9789;</span>
+				<span class="icon-dark" aria-hidden="true">&#9788;</span>
+			</button>
+
+			<button id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+				<span></span><span></span><span></span>
+			</button>
+		</div>
+	</header>
+
+	<main id="main">
+
+		<!-- Hero -->
+		<section id="top" class="hero">
+			<div class="hero-grid" aria-hidden="true"></div>
+			<div class="corner corner-tl" aria-hidden="true"></div>
+			<div class="corner corner-br" aria-hidden="true"></div>
+
+			<div class="container hero-inner">
+				<p class="hero-kicker">Software Engineer</p>
+				<h1 class="hero-title">
+					Hi, I'm Soyal <br>
+					<em>I turn ideas into software that works.</em>
+				</h1>
+				<p class="hero-sub">
+					I’m a software engineer who builds reliable, thoughtful systems from the first line of code to products people can actually use.
+				</p>
+				<div class="hero-actions">
+					<a href="#work" class="btn btn-primary">See my work</a>
+					<a href="#contact" class="btn btn-ghost">Get in touch</a>
+				</div>
+			</div>
+
+			<div class="hero-meta" aria-hidden="true">
+				<span>SCROLL</span>
+				<span class="hero-meta-line"></span>
+			</div>
+		</section>
+
+		<!-- Work -->
+		<section id="work" class="work">
+			<div class="container">
+				<div class="section-head">
+					<h2>Latest Projects</h2>
+					<p>Here is the collection of my recent projects. Feel free to explore them.</p>
+				</div>
+
+				<div class="project-list">
+
+					<article class="project">
+						<button class="project-media" type="button">
+							<img src="images/Barbershop.png" alt="Warren Street Barbers preview" />
+						</button>
+						<div class="project-body">
+							<h3>Warren Street Barbers 💈</h3>
+							<p>Responsive landing page for a barbershop. Hero section with a "Book a Chair" button, a pricing table for cuts and services, and an About section with a shop photo.</p>
+							<ul class="project-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+							<div class="project-links">
+								<a href="https://cheerful-dieffenbachia-edf12f.netlify.app" target="_blank" rel="noopener noreferrer">Live demo →</a>
+								<a href="https://github.com/soyalrjbk/Warren-Street-Barbers" target="_blank" rel="noopener noreferrer">Source →</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="project">
+						<button class="project-media" type="button">
+							<img src="images/Casco Property Care.png" alt="Casco Property Care preview" />
+						</button>
+						<div class="project-body">
+							<h3>Casco Bay Property Care 🏡</h3>
+							<p>Responsive landing page for a Maine lawn care and plowing company. Hero section, services grid, customer quote, and a quote request form.</p>
+							<ul class="project-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+							<div class="project-links">
+								<a href="https://superb-eclair-aef199.netlify.app" target="_blank" rel="noopener noreferrer">Live demo →</a>
+								<a href="https://github.com/soyalrjbk/Casco-Bay-Property-Care-" target="_blank" rel="noopener noreferrer">Source →</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="project">
+						<button class="project-media" type="button">
+							<img src="images/Maine Lobster.png" alt="Slack Tide Lobster Shack preview" />
+						</button>
+						<div class="project-body">
+							<h3>Slack Tide Lobster Shack 🦞</h3>
+							<p>Responsive marketing site for a Maine lobster shack. Hero section, a market-price menu, a step-by-step lobster-eating guide, and a location/hours section with click-to-call.</p>
+							<ul class="project-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+							<div class="project-links">
+								<a href="http://delightful-cajeta-266e8a.netlify.app" target="_blank" rel="noopener noreferrer">Live demo →</a>
+								<a href="https://github.com/soyalrjbk/Maine-Lobster" target="_blank" rel="noopener noreferrer">Source →</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="project">
+						<button class="project-media" type="button">
+							<img src="images/JWLI.png" alt="Japanese Women Leadership Institute preview" />
+						</button>
+						<div class="project-body">
+							<h3>Japanese Women's Leadership Institute 🇯🇵</h3>
+							<p>Nonprofit site for a leadership program for Japanese women. Includes a mailing list signup, program history, founder bios, and partner organizations.</p>
+							<ul class="project-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+							<div class="project-links">
+								<a href="https://gentle-sunflower-d9c146.netlify.app" target="_blank" rel="noopener noreferrer">Live demo →</a>
+								<a href="https://github.com/soyalrjbk/JWLI" target="_blank" rel="noopener noreferrer">Source →</a>
+							</div>
+						</div>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="about" class="about">
+			<div class="container about-inner">
+				<div class="about-media">
+					<img src="images/ProfPic.jpg" alt="Portrait of Soyal Rajbahak" />
+				</div>
+				<div class="about-copy">
+					<h2>About</h2>
+					<p>
+                        I’m passionate about software engineering and enjoy 
+                        exploring AI and robotics. I like learning by 
+                        building things, solving problems, and 
+                        bringing ideas to life.
+					</p>
+					<p>
+						Outside of coding, I enjoy playing soccer, 
+                        trail biking, running, gaming, watching anime, 
+                        and science fiction movies.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="section-head">
+					<h2>Let's connect</h2>
+					<p>Have a role, a project, or just want to connect? I'd love to hear from you.</p>
+				</div>
+
+				<div class="contact-grid">
+					<form id="contact-form" class="contact-form" method="POST" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+						<input type="hidden" name="form-name" value="contact" />
+						<p class="hidden-field"><label>Don't fill this out if you're human: <input name="bot-field" /></label></p>
+						<div class="field">
+							<input type="text" name="name" id="name" placeholder=" " required />
+							<label for="name">Name</label>
+						</div>
+						<div class="field">
+							<input type="email" name="email" id="email" placeholder=" " required />
+							<label for="email">Email</label>
+						</div>
+						<div class="field">
+							<textarea name="message" id="message" placeholder=" " required></textarea>
+							<label for="message">Message</label>
+						</div>
+						<button type="submit" class="btn btn-primary">Send message</button>
+						<p class="form-note" id="form-note"></p>
+					</form>
+
+					<ul class="contact-links">
+						<li>
+							<a href="mailto:soyal.rajbahak@gmail.com">
+								<span class="contact-label">Email</span>
+								<span class="contact-value">soyal.rajbahak@gmail.com</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/soyal-rajbahak-80186a256" target="_blank" rel="noopener noreferrer">
+								<span class="contact-label">LinkedIn</span>
+								<span class="contact-value">in/soyal-rajbahak</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/soyalrjbk" target="_blank" rel="noopener noreferrer">
+								<span class="contact-label">GitHub</span>
+								<span class="contact-value">@soyalrjbk</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://x.com/soyalrjbk" target="_blank" rel="noopener noreferrer">
+								<span class="contact-label">X</span>
+								<span class="contact-value">@soyalrjbk</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer id="footer">
+		<div class="container footer-inner">
+			<p>&copy; <span id="year"></span> Soyal Rajbahak</p>
+			<a href="#top">Back to top ↑</a>
+		</div>
+	</footer>
+
+	<div id="lightbox" class="lightbox" hidden>
+		<button type="button" id="lightbox-close" class="lightbox-close" aria-label="Close preview">&times;</button>
+		<img id="lightbox-img" src="" alt="" />
+	</div>
+
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
