@@ -2,7 +2,7 @@
 
 My personal portfolio site, where I introduce myself as a software engineer, show my latest projects, and make it easy to get in touch. It has a dark mode toggle, a mobile menu, clickable project screenshots, and a working contact form.
 
-**Link to project:** https://soyal-portfolio1.netlify.app
+**Link to project:** https://soyalrajbahak.netlify.app
 
 ## How It's Made:
 
